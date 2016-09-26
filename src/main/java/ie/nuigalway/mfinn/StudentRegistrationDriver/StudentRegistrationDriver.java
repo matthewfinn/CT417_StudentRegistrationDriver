@@ -49,7 +49,19 @@ public class StudentRegistrationDriver {
 
 		ArrayList<Student> s = c1.getStudents();
 		for(Student stu: s){
-			System.out.println("Student: " + stu.toString() + stu.getModules().toString() + "\n\n");
+			int i = 1;
+			System.out.println("Student: " + stu.toString()+"\n");
+			System.out.println("Course: " + stu.getCourse().getName()+"\n");
+			ArrayList<Module> m= stu.getModules();
+			System.out.println("Modules:");
+			for(Module mod : m){
+
+				System.out.println(i++ +". "+ mod.getName());
+
+			}
+			System.out.println("------------------------------------------ \n");
+
+
 		}
 
 
