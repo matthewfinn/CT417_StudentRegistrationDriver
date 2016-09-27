@@ -4,7 +4,7 @@
 
 	<groupId>ie.nuigalway.mfinn</groupId>
 	<artifactId>StudentRegistrationDriver</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>StudentRegistrationDriver</name>
@@ -18,7 +18,7 @@
 		<dependency>
 			<groupId>ie.nuigalway.mfinn</groupId>
 			<artifactId>StudentRegistration</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 	<repositories>
