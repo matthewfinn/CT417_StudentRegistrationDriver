@@ -8,7 +8,7 @@ import ie.nuigalway.mfinn.StudentRegistration.Course;
 import ie.nuigalway.mfinn.StudentRegistration.Module;
 import ie.nuigalway.mfinn.StudentRegistration.Student;
 
-public class StudentRegistrationDriver {
+public class App {
 	public static void main(String[] args) {
 
 		//Declaration of objects to be used to test

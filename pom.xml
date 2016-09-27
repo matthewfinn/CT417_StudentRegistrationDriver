@@ -39,7 +39,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>ie.nuigalway.mfinn.StudentRegistrationDriver.StudentRegistrationDriver</mainClass>
+						<mainClass>ie.nuigalway.mfinn.StudentRegistrationDriver.App</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
