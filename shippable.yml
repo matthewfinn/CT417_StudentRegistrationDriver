@@ -5,7 +5,7 @@ jdk:
 
 install:
 
-   - mvn clean install
+   - mvn install -U
    - mvn compile assembly:single
 notifications:
   email:
