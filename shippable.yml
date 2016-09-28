@@ -4,8 +4,7 @@ jdk:
    - openjdk7
 
 install:
-
-   - mvn install -U
+   - mvn clean dependency:copy-dependencies
    - mvn compile assembly:single
 notifications:
   email:
