@@ -3,9 +3,14 @@ language: java
 jdk:
    - openjdk7
 
-install:
+before_install:
    - mvn clean dependency:copy-dependencies
+   - mkdir /root/.m2/repository/ie/nuigalway/mfinn/StudentRegistration/1.0.0/
+   - cp /root/src/github.com/matthewfinn/CT417_StudentRegistrationDriver/target/StudentRegistration-1.0.0.jar /root/.m2/repository/ie/nuigalway/mfinn/StudentRegistration/1.0.0/
+
+install:
    - mvn compile assembly:single
+
 notifications:
   email:
       recipients:
