@@ -4,8 +4,8 @@ jdk:
    - openjdk7
 
 before_install:
-   - mvn clean install
-   - unzip /root/.m2/repository/ie/nuigalway/mfinn/StudentRegistration/1.0.0/StudentRegistration-1.0.0.jar
+   - mvn clean dependency:copy-dependencies
+   - mkdir /root/.m2/repository/ie/nuigalway/mfinn/StudentRegistration/1.0.0/StudentRegistration-1.0.0.jar
  
 install:
    - mvn compile assembly:single
