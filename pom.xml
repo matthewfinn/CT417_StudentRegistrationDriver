@@ -23,10 +23,10 @@
 	</dependencies>
 	<repositories>
 		<repository>
-			<id>dropbox-mvn-repo</id>
-			<name>My Dropbox Repository</name>
+			<id>bintray-matt-finn-bintray-mvn-repo</id>
+			<name>matt-finn-bintray-mvn-repo</name>
 			<url>
-            <![CDATA[https://www.dropbox.com/sh/dxe6es2rumkkxkw/AAC9fsobu2qgKnFv9LKnqFN_a?dl=0]]> 
+            https://api.bintray.com/maven/matt-finn/bintray-mvn-repo/StudentRegistration/;publish=1
         </url>
 		</repository>
 	</repositories>
