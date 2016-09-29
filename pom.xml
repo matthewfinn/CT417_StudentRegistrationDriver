@@ -14,22 +14,25 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>bintray-matt-finn-bintray-mvn-repo</id>
+			<name>bintray</name>
+			<url>
+            http://dl.bintray.com/matt-finn/bintray-mvn-repo
+        </url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>ie.nuigalway.mfinn</groupId>
 			<artifactId>StudentRegistration</artifactId>
 			<version>1.0.0</version>
+			<type>jar</type>
 		</dependency>
 	</dependencies>
-	<repositories>
-		<repository>
-			<id>bintray-matt-finn-bintray-mvn-repo</id>
-			<name>matt-finn-bintray-mvn-repo</name>
-			<url>
-            https://api.bintray.com/maven/matt-finn/bintray-mvn-repo/StudentRegistration/;publish=1
-        </url>
-		</repository>
-	</repositories>
+	
 
 	<build>
 		<plugins>
