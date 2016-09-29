@@ -4,7 +4,7 @@ jdk:
    - openjdk7
 
 install:
-   - mvn dependency:go-offine
+ 
    - mvn -X compile assembly:single
 
 notifications:
