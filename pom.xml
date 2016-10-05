@@ -28,7 +28,7 @@
 		<dependency>
 			<groupId>ie.nuigalway.mfinn</groupId>
 			<artifactId>StudentRegistration</artifactId>
-			<version>1.0.0</version>
+			<version>1.0.2</version>
 			<type>jar</type>
 		</dependency>
 	</dependencies>
